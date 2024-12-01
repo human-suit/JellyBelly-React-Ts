@@ -1,0 +1,99 @@
+.main img {
+  width: 400px;
+  height: 300px;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  color: red;
+}
+.main h1 {
+  font-size: 44px;
+}
+.main h2 {
+  font-size: 36px;
+  padding-bottom: 50px;
+}
+.main h3 {
+  /* -webkit-line-clamp: 2; /* Число отображаемых строк */
+  /* display: -webkit-box; /* Включаем флексбоксы */
+  /* -webkit-box-orient: vertical; /* Вертикальная ориентация */
+  /* overflow: hidden; Обрезаем всё за пределам */
+  color: black;
+  font-weight: 100;
+}
+.main p {
+  margin: 0px;
+  margin-bottom: 5px;
+  color: gray;
+}
+.top_pad {
+  padding-top: 150px;
+}
+.border_box {
+  border-radius: 20px;
+  text-align: center;
+  width: 500px;
+  box-shadow: 1px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+.border_box img {
+  border-radius: 20px;
+}
+.padding {
+  padding: 20px;
+}
+.flex {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(1, 1fr);
+}
+.palka {
+  height: 3px;
+  width: 150px;
+  margin-left: 35%;
+  margin-bottom: 50px;
+  margin-top: -30px;
+  background-color: red;
+}
+@media (max-width: 1921px) {
+  .flex {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 1641px) {
+  .flex {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 1281px) {
+  .flex {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 821px) {
+  .flex {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media (max-width: 769px) {
+  .flex {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media (max-width: 481px) {
+  .flex {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

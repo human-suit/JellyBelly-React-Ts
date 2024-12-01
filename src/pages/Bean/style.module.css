@@ -1,0 +1,43 @@
+.back {
+  display: flex;
+  justify-content: space-between;
+  padding: 200px 20px;
+}
+.back img {
+  width: 500px;
+}
+.back_white {
+  padding: 20px;
+  background-color: white;
+  border-radius: 20px;
+}
+.back_white h2,
+.back_white h3 {
+  color: red;
+}
+.back_white h2 {
+  font-size: 38px;
+}
+.back_white h3 {
+  font-size: 24px;
+}
+.back_white h4 {
+  font-weight: 400;
+}
+
+@media (max-width: 769px) {
+  .back {
+    display: grid;
+  }
+  .back img {
+    width: 300px;
+  }
+}
+@media (max-width: 481px) {
+  .back {
+    display: grid;
+  }
+  .back img {
+    width: 300px;
+  }
+}
