@@ -15,19 +15,19 @@ const Header = () => {
     return (
       <>
         <li>
-          <Link to={`/JellyBelly-React-Ts/beans`}>Beans</Link>
+          <Link to={`JellyBelly-React-Ts/beans`}>Beans</Link>
         </li>
         <li>
-          <Link to={`/JellyBelly-React-Ts/facts`}>Facts</Link>
+          <Link to={`JellyBelly-React-Ts/facts`}>Facts</Link>
         </li>
         <li>
-          <Link to={`/JellyBelly-React-Ts/recipes`}>Recipes</Link>
+          <Link to={`JellyBelly-React-Ts/recipes`}>Recipes</Link>
         </li>
         <li>
-          <Link to={`/JellyBelly-React-Ts/combinations`}>Combinations</Link>
+          <Link to={`JellyBelly-React-Ts/combinations`}>Combinations</Link>
         </li>
         <li>
-          <Link to={`/JellyBelly-React-Ts/history`}>History</Link>
+          <Link to={`JellyBelly-React-Ts/history`}>History</Link>
         </li>
       </>
     );
