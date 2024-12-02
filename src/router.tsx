@@ -2,7 +2,7 @@ import { createBrowserRouter } from "react-router-dom";
 import { mas } from "./pages/allpage";
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/JellyBelly-React-Ts",
     element: <mas.Layout />,
     loader: mas.Loader,
     children: [
