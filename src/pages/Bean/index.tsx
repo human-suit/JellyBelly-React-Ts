@@ -36,7 +36,7 @@ const BeanPage = () => {
             <h2>{beanData.flavorName}</h2>
             <h3>{beanData.description}</h3>
             <h4>{beanData.ingredients}</h4>
-            <Link to={"/beans"}>Назад</Link>
+            <Link to={"/JellyBelly-React-Ts/beans"}>Назад</Link>
           </div>
         </div>
       )}

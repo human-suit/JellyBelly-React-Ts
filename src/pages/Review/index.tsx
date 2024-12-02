@@ -51,7 +51,7 @@ const Review = () => {
           </select>
           <input type="submit" />
         </form>
-        <Link to={`/`}>Back</Link>
+        <Link to={`/JellyBelly-React-Ts`}>Back</Link>
       </div>
     </div>
   );

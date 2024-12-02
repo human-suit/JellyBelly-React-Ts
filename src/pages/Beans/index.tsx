@@ -33,7 +33,7 @@ const Beans = () => {
               {load != true ? (
                 history?.items.map((item, index) => (
                   <div id={`${index}`} key={index} className={style.border_box}>
-                    <Link to={`/bean/${item.beanId}`}>
+                    <Link to={`/JellyBelly-React-Ts/bean/${item.beanId}`}>
                       <div className={style.padding}>
                         <img src={item.imageUrl} alt="#" />
                         <h2>{item.flavorName}</h2>

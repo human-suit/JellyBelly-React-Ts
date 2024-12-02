@@ -18,19 +18,19 @@ const TopMenu: FC<Props> = ({ isModal, onClick }) => {
         <div className={style.body}>
           <ul>
             <li>
-              <Link to={`/beans`}>Beans</Link>
+              <Link to={`/JellyBelly-React-Ts/beans`}>Beans</Link>
             </li>
             <li>
-              <Link to={`/facts`}>Facts</Link>
+              <Link to={`/JellyBelly-React-Ts/facts`}>Facts</Link>
             </li>
             <li>
-              <Link to={`/recipes`}>Recipes</Link>
+              <Link to={`/JellyBelly-React-Ts/recipes`}>Recipes</Link>
             </li>
             <li>
-              <Link to={`/combinations`}>Combinations</Link>
+              <Link to={`/JellyBelly-React-Ts/combinations`}>Combinations</Link>
             </li>
             <li>
-              <Link to={`/history`}>History</Link>
+              <Link to={`/JellyBelly-React-Ts/history`}>History</Link>
             </li>
           </ul>
         </div>
